@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-data="dark_mode" :class="!dark && 'dark'">
 <head>
     <meta charset="UTF-8">
-    <title>Template</title>
+    <title>coming soon page</title>
     <meta name="viewport" content="width=device-width ,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="welcome to Rocket Cloud website">
     <meta name="keyword" content="HTML,CSS,Js developer">
-<script defer src="main.c87a92ad817adaf36b59.js"></script><link href="css/main.css" rel="stylesheet"></head>
+
+<!--    ////////////// delete this part-->
+    <link rel="stylesheet" href="dist/css/main.css">
+
+<script defer src="main.5c0f05329bb90da2887e.js"></script><link href="css/main.css" rel="stylesheet"></head>
 <body >
 
+<nav>
+    <div class="w-100 p-3 d-flex gap-2 align-items-center">
+        <i class="bi bi-brightness-high-fill fs-4 dark-text-light"></i>
+        <div class="form-check form-switch form-control-lg px-0 pb-1">
+            <input class="form-check-input m-0" type="checkbox" x-bind="trigger" :checked="!dark">
+        </div>
+        <i class=" bi bi-moon-stars-fill fs-5 dark-text-light"></i>
+    </div>
+</nav>
+<header class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">
+                    <span class="text-primary ">Lorem ipsum</span>
+
+                    <span id="text" class=" dark-text-light"></span>
+                </h2>
+                <p class="text-center mt-4 dark-text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate laboriosam minus nam quod saepe sunt.</p>
+            </div>
+        </div>
+    </div>
+</header>
 
 
 
