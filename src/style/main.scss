@@ -4,11 +4,18 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 $bg-light-pic:'../images/bg.jpg';
 /////////////////////////
-
+*{
+  font-family: "Roboto Slab", sans-serif !important;;
+}
 body{
-  background: url($bg-light-pic) no-repeat fixed center center/cover ;
+  background: url($bg-light-pic) no-repeat fixed ;
+  background-size: cover;
 }
 
 header{
   padding-top: 5rem;
+}
+
+.counter_box{
+
 }

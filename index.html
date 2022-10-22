@@ -13,7 +13,7 @@
 
 </head>
 <body >
-
+<!--&gt;>>>>>>>>>>>>>>>>>>>>> navbar <<<<<<<<<<<<<<<<-->
 <nav>
     <div class="w-100 p-3 d-flex gap-2 align-items-center">
         <i class="bi bi-brightness-high-fill fs-4 dark-text-light"></i>
@@ -35,8 +35,30 @@
                 <p class="text-center mt-4 dark-text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cupiditate laboriosam minus nam quod saepe sunt.</p>
             </div>
         </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-5 d-flex justify-content-center gap-3 align-items-center" x-data="countdown">
+                <div class="counter_box px-5 py-4 border border-2 border-light rounded-1 d-flex justify-content-center align-items-center flex-column gap-3">
+                    <span class="fs-4 fw-bold  lh-1 dark-text-light" x-bind="dayTrigger"></span>
+                    <span class="fs-5 fw-bold  lh-1 dark-text-light">Day</span>
+                </div>
+                <div class="counter_box px-4 py-4 border border-2 border-light rounded-1 d-flex justify-content-center align-items-center flex-column gap-3">
+                    <span class="fs-4 fw-bold dark-text-light lh-1" x-bind="hoursTrigger"></span>
+                    <span class="fs-5 fw-bold dark-text-light lh-1">Hour(s)</span>
+                </div>
+                <div class="counter_box px-4 py-4 border border-2 border-light rounded-1 d-flex justify-content-center align-items-center flex-column gap-3">
+                    <span class="fs-4 fw-bold dark-text-light lh-1" x-bind="minutesTrigger"></span>
+                    <span class="fs-5 fw-bold dark-text-light lh-1">Minutes</span>
+                </div>
+                <div class="counter_box px-4 py-4 border border-2 border-light rounded-1 d-flex justify-content-center align-items-center flex-column gap-3">
+                    <span class="fs-4 fw-bold dark-text-light lh-1" x-bind="secondTrigger" ></span>
+                    <span class="fs-5 fw-bold dark-text-light lh-1">Seconds</span>
+                </div>
+
+            </div>
+        </div>
     </div>
 </header>
+
 
 
 

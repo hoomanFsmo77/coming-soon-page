@@ -10779,7 +10779,8 @@ textarea.form-control-lg {
   }
 }
 .dark body {
-  background: url(../images/bg-dark.jpg) no-repeat fixed center center/cover;
+  background: url(../images/bg-dark.jpg) no-repeat fixed;
+  background-size: cover;
 }
 .dark .dark-text-light {
   color: #fff !important;
@@ -10813,8 +10814,13 @@ textarea.form-control-lg {
     opacity: 0;
   }
 }
+* {
+  font-family: "Roboto Slab", sans-serif !important;
+}
+
 body {
-  background: url(../images/bg.jpg) no-repeat fixed center center/cover;
+  background: url(../images/bg.jpg) no-repeat fixed;
+  background-size: cover;
 }
 
 header {

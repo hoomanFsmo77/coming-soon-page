@@ -2,7 +2,8 @@ $bg-dark-pic:'../images/bg-dark.jpg';
 
 .dark{
   body{
-    background: url($bg-dark-pic) no-repeat fixed center center/cover ;
+    background: url($bg-dark-pic) no-repeat fixed ;
+    background-size: cover;
   }
   .dark-text-light{
     color: #fff!important;
