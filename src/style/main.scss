@@ -16,6 +16,9 @@ header{
   padding-top: 5rem;
 }
 
-.counter_box{
-
+.blue_hover{
+  transition: all 200ms linear;
+  &:hover{
+    background:  rgba(51,153,210,0.84);
+  }
 }

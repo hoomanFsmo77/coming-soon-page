@@ -10826,3 +10826,10 @@ body {
 header {
   padding-top: 5rem;
 }
+
+.blue_hover {
+  transition: all 200ms linear;
+}
+.blue_hover:hover {
+  background: rgba(51, 153, 210, 0.84);
+}
