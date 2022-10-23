@@ -30,6 +30,7 @@
     "@alpinejs/persist": "^3.10.4",
     "alpinejs": "^3.10.4",
     "bootstrap": "^5.2.2",
-    "ityped": "^1.0.3"
+    "ityped": "^1.0.3",
+    "leaflet": "^1.9.2"
   }
 }
